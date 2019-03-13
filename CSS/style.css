@@ -1,0 +1,102 @@
+.font{
+	font-size: 20px;
+	font-weight:bolder;
+
+}
+
+.raam { 
+	fill: rgb(189, 185, 185);
+	stroke:black;
+	stroke-width:3;
+}
+
+.raam1 {
+	fill: none;
+	stroke: grey;
+}
+
+.raam2 {
+	fill: none;
+	stroke: black;
+}
+
+.astronaut{
+	position: absolute;
+	margin-top: 235px;
+	margin-left: 210px;
+	z-index: 2 ;
+
+
+}
+
+.dak{
+	fill:red;
+	stroke:black;
+	stroke-width:3;
+	border-radius: 25px;
+}
+
+.vleugellinks{
+	fill:purple;
+	stroke:black;
+	stroke-width:3;
+}
+
+.vleugelrechts{
+	fill:blue;
+	stroke:black;
+	stroke-width:3;
+}
+
+.vleugelmidden{
+	fill:orange;
+	stroke:black;
+	stroke-width:3;
+}
+
+.rechthoek{
+	fill:none;
+	stroke:black;
+	stroke-width: 3;
+}
+
+.fire {
+	fill: red;
+	display: none;
+
+}
+
+.fire1 { 
+	fill: orange;
+	display: none;
+}
+
+.fire2 {
+	fill: yellow;
+	display: none;
+}
+
+.raket:hover .fire{
+	display: block;
+}
+
+.raket:hover .fire1{
+	display: block;
+}
+
+.raket:hover .fire2{
+	display: block;
+}
+
+.raket:hover {
+	position: fixed;
+	top: 50px;
+	left: 10px;
+  	right: 0;
+  	width: 100px;
+	height: 100px;
+	transform: rotate(-25deg);
+	transition-duration: 10s;
+	
+}
+
